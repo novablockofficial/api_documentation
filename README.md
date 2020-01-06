@@ -8,7 +8,12 @@ Starting with the 'wow' character
 ## API
 
 Note: Authentication requires passing the accessToken in the request header. 
-The parameter name is: authorization, the value is Bearer TOKEN, and TOKEN is replaced with the token value to be transmitted.
+The parameter name is: authorization, the value is Bearer TOKEN, and TOKEN is replaced with the token value to be transmitted. 
+
+Follow the example:
+```
+curl 'https://novablock.com/api/v1/worker/stats' -H 'Authorization: Bearer wowQvP9xxxxxxxxxxxxxxxxxxxxxxxxxxJI' 
+```
 
 ### 1. Get workers stats info
 
