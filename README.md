@@ -2,20 +2,20 @@
 
 ## WatcherToken
 
-Watchertoken can be obtained from the observer link generation.(`ACCOUNT SETTINGS`-`MINING GROUP`-`SETTING`-`SET OBSERVER LINK`)
-Starting with the 'wow' character
+WatcherToken can be obtained by generating the observer link.(`ACCOUNT SETTINGS`-`MINING GROUP`-`SETTING`-`SET OBSERVER LINK`)
+And it starts with the 'wow' character
 
 ## API
 
-Note: Authentication requires passing the accessToken in the request header. 
-The parameter name is: authorization, the value is Bearer TOKEN, and TOKEN is replaced with the token value to be transmitted. 
+Note: The authentication requires passing the accessToken into the request header. 
+The parameter's name is ```authorization```, The value is ```Bearer TOKEN```, Please replace the TOKEN to the token value to be transmitted. 
 
-Follow the example:
+Example:
 ```
 curl 'https://novablock.com/api/v1/worker/stats' -H 'Authorization: Bearer wowQvP9xxxxxxxxxxxxxxxxxxxxxxxxxxJI' 
 ```
 
-### 1. Get workers stats info
+### 1. Get workers' stats info
 
 **URL**
 
@@ -46,7 +46,7 @@ curl 'https://novablock.com/api/v1/worker/stats' -H 'Authorization: Bearer wowQv
 }
 ```
 
-**Return field description**
+**Return field and description**
 
 |Return field|Description|
 |:---:|:---:|
@@ -61,7 +61,7 @@ curl 'https://novablock.com/api/v1/worker/stats' -H 'Authorization: Bearer wowQv
 
 ---
 
-### 2. Get workers lists
+### 2. Get workers' lists
 
 **URL**
 
@@ -112,13 +112,13 @@ curl 'https://novablock.com/api/v1/worker/stats' -H 'Authorization: Bearer wowQv
 }
 ```
 
-**Return field description**
+**Return field and description**
 
 |Return field|Description|
 |:---:|:---:|
 |region_id|Region|
-|worker_id|Mining machine id|
-|worker_name|Mineral machine name|
+|worker_id|Mining machine's id|
+|worker_name|Mining machine's name|
 |shares_15m|Real-time Hashrate|
 |shares_24h|24h Hashrate|
 |shares_unit|Hashrate unit|
@@ -129,7 +129,7 @@ curl 'https://novablock.com/api/v1/worker/stats' -H 'Authorization: Bearer wowQv
 
 ---
 
-### 3. Get worker detail info
+### 3. Get worker's detail info
 
 **URL**
 
@@ -166,22 +166,22 @@ curl 'https://novablock.com/api/v1/worker/stats' -H 'Authorization: Bearer wowQv
 }
 ```
 
-**Return field description**
+**Return field and description**
 
 |Return field|Description|
 |:---:|:---:|
-|worker_id|Mining machine id|
-|worker_name|Mineral machine name|
+|worker_id|Mining machine's id|
+|worker_name|Mining machine's name|
 |shares_15m|Real-time Hashrate|
 |shares_24h|24h Hashrate|
 |shares_unit|Hashrate unit|
-|miner_agent|miner agent|
+|miner_agent|Miner agent|
 |accept_count|Number of accept|
 |reject_rate|Reject Hashrate|
 |last_share_ip|Last submitted ip|
 |last_share_lan_ip|Last submitted to the internal network ip|
 |last_share_time|Last submitted time|
-|worker_status|status|
+|worker_status|Status|
 
 ---
 
@@ -226,22 +226,22 @@ curl 'https://novablock.com/api/v1/worker/stats' -H 'Authorization: Bearer wowQv
 }
 ```
 
-**Return field description**
+**Return field and description**
 
 |Return field|Description|
 |:---:|:---:|
 |from_puid|source of hashrate puid|
 |to_puid|receiver of hashrate puid|
-|worker_id|Mining machine id|
-|worker_name|Mineral machine name|
+|worker_id|Mining machine's id|
+|worker_name|Mining machine's name|
 |shares_15m|Real-time Hashrate|
 |shares_24h|24h Hashrate|
 |shares_unit|Hashrate unit|
-|miner_agent|miner agent|
+|miner_agent|Miner agent|
 |reject_rate|Reject Hashrate|
 |last_share_ip|Last submitted ip|
 |last_share_time|Last submitted time|
-|worker_status|status|
+|worker_status|Status|
 
 ---
 
@@ -273,7 +273,7 @@ curl 'https://novablock.com/api/v1/worker/stats' -H 'Authorization: Bearer wowQv
 }
 ```
 
-**Return field description**
+**Return field and description**
 
 |Return field|Description|
 |:---:|:---:|
@@ -343,7 +343,7 @@ curl 'https://novablock.com/api/v1/worker/stats' -H 'Authorization: Bearer wowQv
 }
 ```
 
-**Return field description**
+**Return field and description**
 
 |Return field|Description|
 |:---:|:---:|
@@ -411,7 +411,7 @@ curl 'https://novablock.com/api/v1/worker/stats' -H 'Authorization: Bearer wowQv
 }
 ```
 
-**Return field description**
+**Return field and description**
 
 |Return field|Description|
 |:---:|:---:|
