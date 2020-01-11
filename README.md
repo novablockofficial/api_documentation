@@ -1,5 +1,11 @@
 # Nova API Document
 
+## Unit Convert
+The data returned by the API are Satoshi, which needs to be divided by 10 to the power of 8 to be btc
+```
+123456 Satoshi = 0.00123456 BTC
+```
+
 ## WatcherToken
 
 WatcherToken can be obtained by generating the observer link.(`ACCOUNT SETTINGS`-`MINING GROUP`-`SETTING`-`SET OBSERVER LINK`)
